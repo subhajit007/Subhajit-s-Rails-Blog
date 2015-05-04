@@ -1,0 +1,15 @@
+#A great way to create a blog app by Subhajit
+#open your terminal
+##$ rails new your_app_name
+#cd into your app
+#bundle install
+####console commands
+#bundle exec rails generate scaffold Post title:string body:text
+#bundle exec rake db:migrate
+# rails s then go to posts
+#Now you have a full CRUD blog app
+#add some bootstrap style into it
+#go to routes.rb
+#root 'posts#index'
+
+
